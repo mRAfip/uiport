@@ -91,7 +91,17 @@ header {
 
 
 
+	/* bottom fixed div */
 
+	.fixed-bottom-div{
+
+		visibility: hidden;
+
+
+	}
+
+
+	/* end bottom fixed div */
 	
     .contcat-btn-a{
 
@@ -640,6 +650,15 @@ header {
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
 
+
+		/* bottom fixed div */
+
+		.fixed-bottom-div{
+
+			visibility: hidden;
+	
+	
+		}
 	
     .contcat-btn-a{
 
@@ -1185,6 +1204,15 @@ header {
 @media only screen and (min-width: 768px) and (max-width:991px ) {
 
 
+
+		/* bottom fixed div */
+
+		.fixed-bottom-div{
+
+			visibility: hidden;
+	
+	
+		}
 
 	
     .contcat-btn-a{
@@ -1736,6 +1764,24 @@ header {
 
 
 
+		/* bottom fixed div */
+
+		.fixed-bottom-div{
+
+			position: fixed;
+			width: 100%;
+			bottom: 0;
+			display: flex;
+			justify-content: center;
+			padding: 3% 0;
+			background-color: #000;
+			z-index: 99;
+			border-radius: 10px 10px 0 0;
+	
+	
+		}
+
+
 	
     .contcat-btn-a{
 
@@ -1743,8 +1789,9 @@ header {
         background-color: var(--primary-color) !important;
         padding: 15px 25px !important;
         opacity: 1 !important;
-       font-size: var(--font-size-btn-text);
-	   border-radius: 10px;
+		font-size: 1.5rem !important;
+		border-radius: 10px;
+		font-weight: 400;
     }
 
 
@@ -1781,6 +1828,7 @@ header {
 	.btn-hero{
 
 		
+		visibility: hidden;
 	
 		font-size: var(--font-size-btn-text);
 		padding: 2% 5%;
@@ -1798,6 +1846,7 @@ header {
 
 	.btn-hero:hover{
 
+		visibility: hidden;
 		background-color: var(--font-color);
 		color: var(--font-color)!important;
 		font-size: var(--font-size-btn-text);
