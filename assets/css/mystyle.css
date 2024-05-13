@@ -1786,10 +1786,13 @@ header {
 
 			background-color: var(--primary-color);
 			color: var(--secondory-color);
-			padding: 2% 3%;
+			padding: 3% 0%;
 			font-size: var(--font-size-btn-text);
 			border-radius: 10px;
-			width: 100%;
+			width: 100% !important;
+			text-align: center;
+			display: flex;
+			justify-content: center;
 
 		}
 
