@@ -1773,12 +1773,24 @@ header {
 			bottom: 0;
 			display: flex;
 			justify-content: center;
-			padding: 3% 0;
-			background-color: var(--font-color);
+			padding: 3% 2%;
+			
 			z-index: 99;
 			border-radius: 10px 10px 0 0;
 	
 	
+		}
+
+		.botm-cta{
+
+
+			background-color: var(--primary-color);
+			color: var(--secondory-color);
+			padding: 2% 3%;
+			font-size: var(--font-size-btn-text);
+			border-radius: 10px;
+			width: 100%;
+
 		}
 
 
